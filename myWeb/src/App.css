@@ -1,0 +1,145 @@
+/* Global Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f4f4;  /* Dark background */
+  color: white;
+}
+
+.App {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  font-weight: bold;
+  color: white;
+}
+
+/* Layout for form container */
+.form-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;  /* Two columns per row */
+  gap: 20px;  /* Space between elements */
+  margin-bottom: 30px;
+}
+
+/* Ensuring each form element is on its own grid cell */
+.form-container > div {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Label styles */
+label {
+  font-size: 1rem;
+  margin-bottom: 8px;
+  display: block;
+  font-weight: bold;
+  color: white;
+}
+
+/* Input and select fields styling */
+input,
+select {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  outline: none;
+  transition: box-shadow 0.3s ease;
+}
+
+input:focus,
+select:focus {
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+}
+
+select {
+  color: #000; /* Make the text inside the select options visible */
+  background-color: white; /* Give it a solid background for contrast */
+}
+
+select option {
+  color: black; /* Ensure the text of options is black */
+  background-color: white; /* Ensure options have a white background */
+}
+
+/* Styling for the button */
+button {
+  background-color: #2575fc;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 15px 40px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  display: block;
+  margin: 30px auto;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(255, 255, 255, 0.4);
+}
+
+/* Styling for error messages */
+.error {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 5px;
+  text-align: center;
+}
+
+/* Styling for the results */
+.results {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.results h2 {
+  font-size: 2rem;
+  color: white;
+}
+
+.results .result-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  text-align: center;
+}
+
+.results .team {
+  background-color: #2575fc;
+  padding: 15px;
+  border-radius: 8px;
+  width: 45%;
+}
+
+.results .team h3 {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.results .team p {
+  font-size: 1.2rem;
+  color: white;
+}
+.form-color{
+  background-color:black;
+}

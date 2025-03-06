@@ -1,0 +1,386 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4; /* Light background color for contrast */
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Navbar styles */
+.navbar-image {
+    height: 70px;
+    border-radius: 50px;
+    border-color: black;
+    border: solid;
+    animation: rotation 4s linear infinite; /* Apply rotation animation */
+}
+
+.navbar-color {
+    
+
+    
+    background-color:#31822dac ;
+    
+}
+
+.nav-link {
+    color: white; /* Text color for nav links */
+    padding: 10px 15px; /* Add padding for better touch targets */
+}
+
+.nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Light background on hover */
+    color: white; /* White text on hover */
+    border-radius: 5px; /* Rounded corners for hover effect */
+}
+
+.nav-link.active {
+    background-color: rgba(255, 255, 255, 0.3); /* Slightly lighter for active link */
+    color: white; /* White text for active link */
+    border-radius: 5px; /* Rounded corners for active effect */
+}
+
+/* Scrolling text */
+.scrolling-text {
+    width: 100%;
+    color: white; /* Set scrolling text color to white */
+}
+
+.margue-background-color {
+    background-color: black; /* Background color for marquee */
+}
+
+/* Footer styles */
+.footer {
+    background-color: #24262b;
+    padding: 70px 0;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+#footer-name{
+    text-decoration: underline;
+    text-decoration-color: red;
+
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #bbbbbb;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: #ffffff;
+    padding-left: 8px;
+}
+
+.footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+/* Responsive styles */
+@media(max-width: 767px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 574px) {
+    .footer-col {
+        width: 100%;
+    }
+}
+
+
+.team-container {
+    background: linear-gradient(to right, #2C3E50, #4CA1AF);
+    border-radius: 10px; 
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); 
+    margin-top: 10px;
+    margin-bottom: 30px; 
+}
+    .team {
+    background-color: rgba(255, 255, 255, 0.3); /* Even more transparent for team boxes */
+    padding: 15px;
+    border-radius: 10px; 
+    text-align: center;
+    cursor: pointer; /* Cursor changes to pointer when hovering */
+    transition: transform 0.2s; /* Smooth scaling effect */
+    margin: 5px;
+}
+
+.team:hover {
+    transform: scale(1.05); /* Slightly enlarge the team box on hover */
+}
+
+.team-name {
+    font-weight: bold; /* Bold team names */
+    color: #333; /* Dark text color */
+}
+
+.team-image {
+    max-width: 100%; /* Responsive image size */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners for images */
+}
+
+/* Selected teams */
+.selected-team {
+    font-variant-caps: all-petite-caps;
+    margin: 0 20px;
+    width: 15%;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.orange-glow {
+    box-shadow: 0 0 15px rgba(255, 165, 0, 0.9); /* Orange glow effect for selected teams */
+}
+
+.vs {
+    font-size: 24px; 
+    font-weight: bold;
+    margin: 0 20px; 
+    color: #f8f5f5; 
+    animation: shake 0.5s infinite; 
+}
+
+@keyframes shake {
+    0% { transform: translate(0); }
+    25% { transform: translate(-5px); }
+    50% { transform: translate(5px); }
+    75% { transform: translate(-5px); }
+    100% { transform: translate(0); }
+}
+
+button {
+    width: 150px; 
+    margin: 10px;
+}
+
+.bc-image {
+    background-image: url(images/cartoon-character-playing-cricket-game-field.jpg);
+    height: 100vh; 
+    background-size: cover;
+}
+.textStyle{
+        margin: 0px;
+        font-weight: bold;
+        font-size: 16px;
+        font-weight: bold;
+        color: #000000; 
+        text-shadow:
+          0.5px 0.5px 0 #ffffff, 
+          0.5px 0.5px 0 #ffffff, 
+          0.5px 0.5px 0 #ffffff, 
+          0.5px 0.5px 0 #ffffff, 
+          0.5px 0.5px 0 #ffffff; 
+    
+}
+
+.csk{
+    background-image: url(images/csk.jpg);
+    background-size: cover;
+}
+.mi{
+    background-image: url(images/mi.jpg);
+    background-size: cover;
+}
+.rcb{
+    background-image: url(images/rcb.jpg);
+    background-size: cover;
+}
+.srh{
+    background-image: url(images/srh.jpg);
+    background-size: cover;
+}
+.rr{
+    background-image: url(images/rr.jpg);
+    background-size: cover;
+}
+.lsg{
+    background-image: url(images/lsg.jpg);
+    background-size: cover;
+}
+.gt{
+    background-image: url(images/gt.jpg);
+    background-size: cover;
+}
+.pk{
+    background-image: url(images/pk.jpg);
+    background-size: cover;
+}
+.dc{
+    background-image: url(images/dc.jpg);
+    background-size: cover;
+}
+.kkr{
+    background-image: url(images/kkr.jpg);
+    background-size: cover;
+}
+
+.container1 {
+    margin: auto;
+    width: 100%; 
+    max-width: 800px; 
+    background-color: rgb(227, 87, 1); 
+    border-radius: 20px;
+    padding: 20px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+select, input[type="number"] {
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.error {
+    color: red;
+    font-size: 0.9em;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center; 
+}  
+.highlight {
+    background-color: #ffeeba;
+    color: #000803;
+    border: 2px solid #161616;
+    padding: 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+} 
+.highlight-winner {
+    background-color: #ffdf00; 
+    color: #000;
+    font-weight: bold;
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+/* Marquee Styling */
+
+.scrolling-text {
+    margin-top: 0px;
+    text-align: center;
+}
+
+.marquee-text {
+    font-size: 20px;
+    font-weight: bold;
+    color: #130603;
+    background-color: #faf7f7;
+    padding: 15px;
+    border-radius: 0px;
+} 
+/* Define scrolling-text container */
+.scrolling-text {
+    width: 100%;
+    overflow: hidden;
+    background-color: #000; /* Optional background color */
+  }
+  
+  /* Define the actual scrolling content */
+  .scrolling-content {
+    display: inline-block;
+    white-space: nowrap;
+    padding-left: 100%; /* Starts from the right */
+    animation: scroll-left 20s linear infinite;
+  }
+  
+  /* Keyframes for the scrolling animation */
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(0%); /* Starts from the right */
+    }
+    100% {
+      transform: translateX(-100%); /* Ends at the left */
+    }
+  }
+  
+.team-form1{
+    background-color:rgb(152, 141, 102);
+}
+.select-two-teams{
+    color:#fdf9f8; 
+    font-weight: bold;
+}
+
+.clear{
+    height:65px;
+    width: 100px;   
+    background-color: blue; 
+    color:white;
+    font-weight:bold;
+    margin-left: 10px; 
+    display: fit-content; 
+
+
+
+}
