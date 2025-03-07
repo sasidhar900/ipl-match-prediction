@@ -27,15 +27,7 @@ The model achieves an **80% accuracy** by fine-tuning weights based on **log los
 - Python 3.x
 - Required libraries: Pandas, NumPy, Scikit-learn, Matplotlib, Flask (for deployment)
 
-### Setup
-```bash
-# Clone the repository
-git clone https://github.com/your-username/IPL-Prediction.git
-cd IPL-Prediction
 
-# Install dependencies
-pip install -r requirements.txt
-```
 
 ### How to Run the Code on Your Laptop
 1. **Run the Flask API:**
@@ -86,5 +78,5 @@ The project can be deployed using **Flask** or integrated into a **web applicati
 Feel free to submit issues, suggest improvements, or fork the repo to contribute!
 
 ## 📞 Contact
-For any queries, reach out at [your-email@example.com].
+For any queries, reach out at [sasidharreddydurgempudi@gmail.com].
 
