@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e16d6cf6.css",
+    "main.js": "/static/js/main.8a87d076.js",
+    "static/media/5492.jpg": "/static/media/5492.8b3a110f73b0e8355bb6.jpg",
+    "static/media/cartoon-character-playing-cricket-game-field.jpg": "/static/media/cartoon-character-playing-cricket-game-field.09ef151d4cdb9e22719e.jpg",
+    "static/media/signup.jpg": "/static/media/signup.09ef151d4cdb9e22719e.jpg",
+    "static/media/mi.jpg": "/static/media/mi.cd400ff6476521b9d057.jpg",
+    "static/media/csk.jpg": "/static/media/csk.98d68e352e068275f13c.jpg",
+    "static/media/srh.jpg": "/static/media/srh.a28f4826cfcdeecf2afa.jpg",
+    "static/media/lsg.jpg": "/static/media/lsg.1c272c70ae21d6787b93.jpg",
+    "static/media/rr.jpg": "/static/media/rr.eb74cc7a5a19b702c463.jpg",
+    "static/media/dc.jpg": "/static/media/dc.686ec31194d6071a7b14.jpg",
+    "static/media/kkr.jpg": "/static/media/kkr.ad63ee6ca796b4ad0f44.jpg",
+    "static/media/gt.jpg": "/static/media/gt.8b6a5ebe8aafc1094f64.jpg",
+    "static/media/rcb.jpg": "/static/media/rcb.94d65b7fe20492c83e5d.jpg",
+    "static/media/pk.jpg": "/static/media/pk.7caac7ec140457a5264e.jpg",
+    "static/media/ipl2.jpg": "/static/media/ipl2.e1838d99cbafffbce636.jpg",
+    "index.html": "/index.html",
+    "main.e16d6cf6.css.map": "/static/css/main.e16d6cf6.css.map",
+    "main.8a87d076.js.map": "/static/js/main.8a87d076.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e16d6cf6.css",
+    "static/js/main.8a87d076.js"
+  ]
+}
