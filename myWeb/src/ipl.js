@@ -93,7 +93,7 @@ function App() {
     if (!validate()) return;
 
     try {
-      const response = await axios.post('https://ipl-match-prediction-1-x2li.onrender.com', formData);
+      const response = await axios.post('https://ipl-match-prediction-1-x2li.onrender.com/predict', formData);
       setBattingTeam(response.data.batting_team);
       setBowlingTeam(response.data.bowling_team);
       setBattingWinProbability(response.data.batting_win_probability);
