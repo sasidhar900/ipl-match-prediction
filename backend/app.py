@@ -6,7 +6,7 @@ from flask_cors import CORS
 
 # Initialize Flask app
 app = Flask(__name__, static_folder='build', static_url_path='/')
-CORS(app)
+CORS(app)  # <-- Only once, after app is initialized
 
 # Load the pre-trained model
 try:
@@ -55,7 +55,8 @@ def predict():
         return jsonify({"error": "Model not loaded. Check server logs."}), 500
 
     try:
-        data = request.json
+        data = request.get_json()
+
         batting_team = data['batting_team']
         bowling_team = data['bowling_team']
         selected_city = data['city']
@@ -103,5 +104,5 @@ def predict():
         return jsonify({"error": f"An error occurred: {str(e)}"}), 500
 
 if __name__ == "__main__":
-    port = int(os.environ.get('PORT', 5000))  # for Render / Heroku
+    port = int(os.environ.get('PORT', 5000))  # for Render / Heroku / localhost
     app.run(host='0.0.0.0', port=port)
