@@ -4,8 +4,7 @@
 This project aims to predict the outcome of Indian Premier League (IPL) matches using **Machine Learning** techniques.  
 The model is trained on historical IPL data and predicts match results based on key features like team statistics, venue, toss decisions, and player performances.
 
-✅ **Live Deployment:** [👉 Click here to try the app](https://ipl-match-prediction-dw7e-oazipo1rf-sasidhars-projects-6c55366b.vercel.app/)
-
+✅ **Live Deployment:** [👉 Click here to try the app](https://ipl-match-prediction-kq51.onrender.com)
 ---
 
 ## 🏏 Dataset
@@ -67,7 +66,7 @@ The model achieves an **80% accuracy** by fine‑tuning weights based on **log l
 
 ## 🖥️ Deployment
 The project is deployed and live at:  
-🌐 **[https://ipl-match-prediction-dw7e-oazipo1rf-sasidhars-projects-6c55366b.vercel.app/](https://ipl-match-prediction-dw7e-oazipo1rf-sasidhars-projects-6c55366b.vercel.app/)**  
+🌐 **[https://ipl-match-prediction-kq51.onrender.com](https://ipl-match-prediction-kq51.onrender.com)**  
 
 It can also be deployed using **Flask** or integrated into a **web application**.
 
